@@ -1,0 +1,45 @@
+.ask{
+    &__content{
+        &_title{
+            display: flex;
+            justify-content: center;
+            padding: 100px 0 67px;
+            font-weight: 700;
+            font-size: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #333333;
+        }
+        &_window{
+            width: 100%;
+        }
+        &_ask{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 30px;
+            color: #333333;
+            border: transparent;
+            padding: 25px 0px;
+        }
+        &_answer{
+            width: 100%;
+            font-weight: 400;
+            font-size: 16px;
+            color: #333333;
+            border: transparent;
+            padding: 25px 0;
+        }
+        &_line{
+            height: 2px;
+            width: 100%;
+            border: 2px solid #EAEBEF;
+            background: #EAEBEF;
+        }
+    }
+}
+
+
+

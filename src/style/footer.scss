@@ -1,0 +1,79 @@
+.footer{
+    &__hr{
+        width: 100%;
+        height: 1px;
+        background: #547147;
+        margin-top: 100px;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0px;
+        &_description{
+            padding-top: 28px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 18px;
+            color: #888888;
+        }
+        &_nav{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        &_link{
+            font-weight: 600;
+            font-size: 16px;
+            color: #333333;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+                text-underline-offset: 7px;
+                color: #000;
+            }
+            &-active{
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 28px;
+                color: #333333;
+            }
+        }
+        &_phone{
+            font-weight: 600;
+            font-size: 30px;
+            color: #333333;
+            &:hover{
+                text-decoration: underline;
+                text-underline-offset: 7px;
+                color: #000;
+            }
+        }
+        &_messenger{
+            padding-top: 20px;
+            display: flex;
+            column-gap: 20px;
+        }
+        &_ask{
+            font-weight: 600;
+            font-size: 30px;
+            color: #333333;
+        }
+        &_text{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #333333;
+            padding: 15px 0 20px;
+        }
+        &_btn{
+            background: #547147;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 16px 32px;
+            border: #547147;
+        }
+    }
+}

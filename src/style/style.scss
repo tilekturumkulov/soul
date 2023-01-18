@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    cursor: crosshair;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    padding-top: 136px;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+@mixin text () {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+$green : #547147;
+
+@import "header.scss";
+@import "slider.scss";
+@import "icons.scss";
+@import "catalog.scss";
+@import "discount.scss";
+@import "sertificate.scss";
+@import "ask.scss";
+@import "footer.scss";
